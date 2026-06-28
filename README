@@ -1,0 +1,30 @@
+      ..    .     :                     ..
+    .888: x888  x888.        u        .@88i        .u                 .
+   ~`8888~'888X`?888f`    us888u.    ""%888>    ud8888.          .udR88N
+     X888  888X '888>  .@88 "8888"     '88%   :888'8888.        <888'888k
+     X888  888X '888>  9888  9888    ..dILr~` d888 '88%"        9888 'Y"
+     X888  888X '888>  9888  9888   '".-%88b  8888.+"           9888
+     X888  888X '888>  9888  9888    @  '888k 8888L         .   9888
+    "*88%""*88" '888!` 9888  9888   8F   8888 '8888c. .+  .@8c  ?8888u../
+      `~    "    `"`   "888*""888" '8    8888  "88888%   '%888"  "8888P'
+                        ^Y"   ^Y'  '8    888F    "YP'      ^*      "P'
+                                    %k  <88F
+                                     "+:*%`
+== maze.c ==                                                 ##################
+                                                             #                #
+Escape the maze. There must be some stairs out somewhere...  #                #
+                                                             #                #
+  w    wasd: move one step in specified direction            #                #
+  |       q: quit                                            #    #.#         #
+a-.-d                                                        #    #.##        #
+  |    BUILD                                                 #    ....#       #
+  s        gcc -o maze maze.c -lm -lncurses                  #    ###.#######.#
+                                                             #    #...@.......#
+       RUN                                                   #    ###.#.#######
+           ./maze                                            #      #.#.#     #
+                                                             #                #
+       WHAT IS THIS                                          #                #
+           A weekend experiment with maze generation and 2D  #                #
+           FOV. Should build/run on any POSIX system.        #                #
+                                                             #                #
+                                                             ##################
